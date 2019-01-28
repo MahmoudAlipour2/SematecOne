@@ -7,139 +7,138 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+
+    //region SematecAndroidSession3Task2
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_margin="3dp"
+        android:text="First Title"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"
+        android:layout_margin="4dp"
         android:background="#FF0000"
-        android:orientation="horizontal"
-        android:layout_margin="10dp">
+        android:orientation="horizontal">
+
 
         <TextView
             android:layout_width="100dp"
-            android:gravity="center"
-            android:layout_gravity="center"
             android:layout_height="match_parent"
+            android:layout_gravity="center"
             android:background="#C982D4"
-            android:text="One"/>
+            android:gravity="center"
+            android:text="One" />
 
         <ImageView
             android:layout_width="400dp"
             android:layout_height="match_parent"
-            android:src="@drawable/one"
-            />
+            android:src="@drawable/one" />
 
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"
+        android:layout_margin="4dp"
         android:background="#FF0000"
-        android:orientation="horizontal"
-        android:layout_margin="10dp">
+        android:orientation="horizontal">
 
         <TextView
             android:layout_width="100dp"
-            android:gravity="center"
-            android:layout_gravity="center"
             android:layout_height="match_parent"
+            android:layout_gravity="center"
             android:background="#C982D4"
-            android:text="Two"/>
+            android:gravity="center"
+            android:text="Two" />
 
         <ImageView
             android:layout_width="400dp"
             android:layout_height="match_parent"
-            android:src="@drawable/two"
-            />
+            android:src="@drawable/two" />
 
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"
+        android:layout_margin="4dp"
         android:background="#FF0000"
-        android:orientation="horizontal"
-        android:layout_margin="10dp">
+        android:orientation="horizontal">
 
         <TextView
             android:layout_width="100dp"
-            android:gravity="center"
-            android:layout_gravity="center"
             android:layout_height="match_parent"
+            android:layout_gravity="center"
             android:background="#C982D4"
-            android:text="Three"/>
+            android:gravity="center"
+            android:text="Three" />
 
         <ImageView
             android:layout_width="400dp"
             android:layout_height="match_parent"
-            android:src="@drawable/three"
-            />
+            android:src="@drawable/three" />
 
     </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_margin="3dp"
+        android:text="Second Title"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"
+        android:layout_margin="4dp"
         android:background="#FF0000"
-        android:orientation="horizontal"
-        android:layout_margin="10dp">
+        android:orientation="horizontal">
 
         <TextView
             android:layout_width="100dp"
-            android:gravity="center"
-            android:layout_gravity="center"
             android:layout_height="match_parent"
+            android:layout_gravity="center"
             android:background="#C982D4"
-            android:text="Four"/>
+            android:gravity="center"
+            android:text="Four" />
 
         <ImageView
             android:layout_width="400dp"
             android:layout_height="match_parent"
-            android:src="@drawable/four"
-            />
+            android:src="@drawable/four" />
 
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"
+        android:layout_margin="4dp"
         android:background="#FF0000"
-        android:orientation="horizontal"
-        android:layout_margin="10dp">
+        android:orientation="horizontal">
 
         <TextView
             android:layout_width="100dp"
-            android:gravity="center"
-            android:layout_gravity="center"
             android:layout_height="match_parent"
+            android:layout_gravity="center"
             android:background="#C982D4"
-            android:text="Five"/>
+            android:gravity="center"
+            android:text="Five" />
 
         <ImageView
             android:layout_width="400dp"
             android:layout_height="match_parent"
-            android:src="@drawable/five"
-            />
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:background="#FF0000"
-        android:orientation="horizontal"
-        android:layout_margin="10dp">
-
-        <TextView
-            android:layout_width="100dp"
-            android:gravity="center"
-            android:layout_gravity="center"
-            android:layout_height="match_parent"
-            android:background="#C982D4"
-            android:text="Six"/>
-
-        <ImageView
-            android:layout_width="400dp"
-            android:layout_height="match_parent"
-            android:src="@drawable/six"
-            />
+            android:src="@drawable/five" />
 
     </LinearLayout>
 
 
+    //endregion
 
 </LinearLayout>
